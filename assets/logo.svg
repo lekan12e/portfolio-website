@@ -1,0 +1,26 @@
+<svg
+          width="42"
+          height="30"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle
+            cx="100"
+            cy="100"
+            r="90"
+            stroke="#3DE8D1"
+            stroke-width="8"
+            fill="none"
+          />
+          <path
+            d="M70 130 L70 70 L90 70"
+            stroke="#3DE8D1"
+            stroke-width="8"
+            fill="none"
+          />
+          <path
+            d="M110 70 L130 100 L110 130"
+            stroke="#3DE8D1"
+            stroke-width="8"
+            fill="none"
+          />
+        </svg>
