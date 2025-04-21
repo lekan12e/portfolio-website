@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import VanillaTilt from "vanilla-tilt";
@@ -40,7 +41,7 @@ const TiltCard: React.FC<TiltCardProps> = ({
       });
     }
     return () => {
-      tiltRef.current?.vanillaTilt?.destroy?.(); // cleanup just in case
+      tiltRef.current?.vanillaTilt?.destroy?.();
     };
   }, []);
 
@@ -82,9 +83,13 @@ const TiltCard: React.FC<TiltCardProps> = ({
           </svg>
         </Link>
       </div>
-      <img
+      <Image
         src={image}
+        alt="image"
+        width={320}
+        height={208}
         className="md:h-52 h-48 md:w-80 w-full object-cover z-30 backdrop-blur-md"
+        priority={false}
       />
     </div>
   );

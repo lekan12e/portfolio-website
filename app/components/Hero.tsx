@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -46,11 +47,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full h-full flex justify-center items-center">
-        <img
+        <Image
           alt="work icons"
-          loading="lazy"
           src="/mainIconsdark.svg"
+          width={650}
+          height={0}
           className="w-64 sm:w-80 md:w-[400px] lg:w-[500px] xl:w-[650px]"
+          priority={false}
         />
       </div>
     </div>
