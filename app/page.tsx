@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 export default function Home() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -21,7 +23,9 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <motion.div
+      <Projects />
+      <Contact />
+      {/* <motion.div
         variants={{
           hidden: { opacity: 0, y: -50 },
           visible: { opacity: 1, y: 0 },
@@ -108,7 +112,7 @@ export default function Home() {
           temporibus cupiditate voluptatem, architecto accusantium? Dicta eaque
           est commodi voluptates nulla?
         </h1>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }

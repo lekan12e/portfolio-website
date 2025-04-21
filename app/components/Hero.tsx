@@ -20,7 +20,7 @@ const Hero = () => {
                   clip-rule="evenodd"></path>
               </svg>
               <h1 className="Welcome-text text-cyan-300 text-[13px]">
-                Front-end Developer Portfolio
+                Fullstack Developer Portfolio
               </h1>
             </div>
             <p className="md:text-xl  z-30 font-semibold text-white">
@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="flex items-center space-x-3 font-semibold">
               <h3 className="md:text-2xl text-lg text-zinc-500">I am a</h3>
               <h3 className="md:text-5xl text-2xl text-gray-200 font-medium">
-                FRONT-END DEVELOPER
+                FULLSTACK DEVELOPER
               </h3>{" "}
             </div>
           </div>

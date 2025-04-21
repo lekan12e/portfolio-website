@@ -69,10 +69,11 @@ const NavBar = () => {
       </div>
 
       {menuOpen && (
-        <div className="fixed top-14 left-0 w-full h-screen flex md:hidden flex-col z-[9999]  bg-[#8b889d17]">
+        <div className="fixed top-14 left-0 w-full h-screen flex md:hidden flex-col z-[9999]  bg-[#030014] ">
           <div className="w-full flex flex-col flex-grow justify-center items-center space-y-5">
             {navLinks.map((link) => (
               <Link
+                onClick={() => setMenuOpen(false)}
                 href={link.path}
                 key={link.name}
                 className="text-2xl text-zinc-300 font-semibold cursor-pointer hover:scale-110 hover:text-cyan-300 transition-all duration-200 ease-out">
