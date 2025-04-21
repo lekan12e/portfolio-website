@@ -1,5 +1,5 @@
 "use client";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
