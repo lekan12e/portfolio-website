@@ -95,7 +95,7 @@ const Contact: React.FC = () => {
             </button>
           </MotionWrapper>
         </form>
-        <div className="flex items-center mt-5 md:space-x-4 md:justify-start justify-between">
+        <div className="flex items-center mt-5 gap-5 md:space-x-4 md:justify-start justify-between">
           <MotionWrapper delay={0.1} duration={1}>
             <Link target="_blank" href="https://github.com/lekan12e">
               <Image
