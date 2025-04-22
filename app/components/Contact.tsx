@@ -109,7 +109,7 @@ const Contact: React.FC = () => {
             </Link>
           </MotionWrapper>
           <MotionWrapper delay={0.2} duration={1}>
-            <Link target="_blank" href="https://twitter.com/dayveed_xx">
+            <Link target="_blank" href="https://x.com/OyeniranNosiru1">
               <Image
                 src="/twitter.svg"
                 width={18}
@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
           <MotionWrapper delay={0.3} duration={1}>
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/ebireni-david/">
+              href="https://www.linkedin.com/in/nosirudeen-oyeniran-398ab92b2">
               <Image
                 src="/linkden.svg"
                 width={18}
