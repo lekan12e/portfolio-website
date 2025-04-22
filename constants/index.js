@@ -51,7 +51,7 @@ export const projects = [
       "Built a full stack e-commerce application using React Next.js for the frontend and Node.js with Express for the backend",
     technologies: ["Next.js", "Redux", "Node.js", "Express", "MongoDB"],
     image: "/cloth-store.PNG",
-    link: "https://ecommerce-frontend-0j1k.onrender.com/",
+    link: "https://lakes-store.netlify.app/",
   },
   {
     title: "Lakes Chat",

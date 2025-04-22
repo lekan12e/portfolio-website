@@ -1,13 +1,16 @@
+import MotionWrapper from "@/utils/MotionWrapper";
 import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center px-20 mt-40 w-full  font-mono gap-2">
+    <div className="flex flex-col lg:flex-row items-center justify-center px-20 mt-20 mb-36 md:mb-0 w-full font-mono gap-2">
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <div className="h-full md:w-9/12 w-full mx-auto h-full items-center justify-center">
           <div className="relative">
-            <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mb-2.5">
+            <MotionWrapper
+              direction="left"
+              className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mb-2.5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -21,28 +24,36 @@ const Hero = () => {
                   clip-rule="evenodd"></path>
               </svg>
               <h1 className="Welcome-text text-cyan-300 text-[13px]">
-                Fullstack Developer Portfolio
+                Portfolio
               </h1>
-            </div>
-            <p className="md:text-xl  z-30 font-semibold text-white">
-              Hi there, {"I'm"}
-            </p>
-            <div className="flex items-center md:space-x-5 space-x-3">
+            </MotionWrapper>
+            <MotionWrapper direction="right">
+              <p className="md:text-xl  z-30 font-semibold text-white">
+                Hi there, {"I'm"}
+              </p>
+            </MotionWrapper>
+            <MotionWrapper
+              direction="left"
+              className="flex items-center md:space-x-5 space-x-3">
               <h1 className="md:text-6xl sm:text-6xl text-5xl font-bold text-cyan-300">
                 NOSIRUDEEN
               </h1>
-            </div>
-            <div className="flex items-center md:space-x-5 space-x-3">
+            </MotionWrapper>
+            <MotionWrapper
+              direction="left"
+              className="flex items-center md:space-x-5 space-x-3">
               <h1 className="md:text-6xl sm:text-6xl text-5xl font-bold text-white">
                 OYENIRAN
               </h1>
-            </div>
-            <div className="flex items-center space-x-3 font-semibold">
-              <h3 className="md:text-2xl text-lg text-zinc-500">I am a</h3>
+            </MotionWrapper>
+            <MotionWrapper
+              direction="right"
+              className="flex items-center space-x-3 font-semibold">
+              <h3 className="md:text-2xl text-lg text-zinc-500">{"I'm"} a</h3>
               <h3 className="md:text-5xl text-2xl text-gray-200 font-medium">
                 FULLSTACK DEVELOPER
               </h3>{" "}
-            </div>
+            </MotionWrapper>
           </div>
         </div>
       </div>
@@ -53,7 +64,6 @@ const Hero = () => {
           width={650}
           height={0}
           className="w-64 sm:w-80 md:w-[400px] lg:w-[500px] xl:w-[650px]"
-          priority={false}
         />
       </div>
     </div>

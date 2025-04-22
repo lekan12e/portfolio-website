@@ -52,11 +52,23 @@ const TiltCard: React.FC<TiltCardProps> = ({
       <div className="w-full z-30 md:max-w-sm md:p-5 md:space-y-3 space-y-1">
         <p className="text-xl text-cyan-300 font-semibold">{title}</p>
         <h3 className="text-sm font-medium text-zinc-400">{description}</h3>
-        <div className="flex items-center space-x-4 text-wrap">
+        <div className="flex flex-wrap gap-2 items-center">
           {technologies.map((tech, index) => (
             <p
               key={index}
               className="flex text-zinc-200 items-center min-w-max text-xs md:font-normal font-semibold">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                className="text-[6px]"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" d="M24 24H0V0h24v24z"></path>
+                <circle cx="12" cy="12" r="8"></circle>
+              </svg>{" "}
               {tech}
             </p>
           ))}
