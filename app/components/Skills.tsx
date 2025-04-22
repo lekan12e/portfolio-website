@@ -14,7 +14,7 @@ const Skills = () => {
       </MotionWrapper>
       <div className="w-full flex md:space-x-4 flex-col md:flex-row md:space-y-0 space-y-3">
         <MotionWrapper
-          delay={0.2}
+          delay={0.4}
           className="flex-grow p-3 z-30 rounded-md shadow-lg bg-slate-900">
           <h4 className="text-xl text-zinc-300">Frontend</h4>
           <div className="flex items-center">
@@ -149,8 +149,7 @@ const Skills = () => {
           </div>
         </MotionWrapper>
         <MotionWrapper
-          duration={0.6}
-          delay={0.2}
+          delay={0.8}
           className="flex-grow p-3 z-30 rounded-md shadow-lg bg-slate-900">
           <h4 className="text-xl text-zinc-300">Backend</h4>
           <div className="flex items-center">
@@ -202,8 +201,7 @@ const Skills = () => {
           </div>
         </MotionWrapper>
         <MotionWrapper
-          delay={0.2}
-          duration={0.7}
+          delay={1.2}
           className="flex-grow p-3 z-30 rounded-md shadow-lg bg-slate-900">
           <h5 className="text-xl text-zinc-300">Database</h5>
           <div className="flex items-center">

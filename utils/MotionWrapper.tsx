@@ -21,7 +21,7 @@ export default function MotionWrapper({
   children,
   direction = "bottom",
   delay = 0.1,
-  duration = 0.5,
+  duration = 1,
   className = "",
 }: MotionWrapperProps) {
   const ref = useRef(null);
