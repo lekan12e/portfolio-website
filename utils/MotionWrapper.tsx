@@ -13,14 +13,14 @@ interface MotionWrapperProps {
 const directions = {
   left: { x: -100, opacity: 0 },
   right: { x: 100, opacity: 0 },
-  top: { y: -50, opacity: 0 },
-  bottom: { y: 50, opacity: 0 },
+  top: { y: -100, opacity: 0 },
+  bottom: { y: 100, opacity: 0 },
 };
 
 export default function MotionWrapper({
   children,
   direction = "bottom",
-  delay = 0.1,
+  delay = 0.4,
   duration = 1,
   className = "",
 }: MotionWrapperProps) {

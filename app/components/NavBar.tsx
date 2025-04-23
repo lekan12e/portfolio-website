@@ -19,7 +19,7 @@ const NavBar = () => {
   }, [menuOpen]);
   return (
     <nav className="w-full flex items-center fixed top-0 justify-between md:px-10 py-2 px-3 shadow-lg shadow-[#2A0E61]/50 bg-[#030014] backdrop-blur-md z-50">
-      <MotionWrapper delay={0.05} duration={0.8}>
+      <MotionWrapper delay={0.5} duration={0.8}>
         <Link href="/" className="flex items-center gap-2">
           <svg
             width="42"
@@ -51,7 +51,7 @@ const NavBar = () => {
         </Link>
       </MotionWrapper>
       <MotionWrapper
-        delay={0.2}
+        delay={0.8}
         duration={1}
         className="flex items-center gap-4">
         {navLinks.map((link) => (
