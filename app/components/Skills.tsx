@@ -199,6 +199,67 @@ const Skills = () => {
               height="0"
             />
           </div>
+          <div className="flex items-center">
+  {/* play icon */}
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    strokeWidth="0"
+    viewBox="0 0 512 512"
+    className="text-cyan-300"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M192 128l128 128-128 128z" />
+  </svg>
+
+  <p className="text-lg mx-2 text-zinc-100 font-semibold">NestJS</p>
+
+  {/* NestJS brand icon */}
+  <svg
+    role="img"
+    viewBox="0 0 24 24"
+    className="text-gray-200"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>NestJS</title>
+    <path d="M11.248 24c-.1 0-.201-.01-.302-.03-.42-.08-.814-.288-1.106-.59-.177-.182-.4-.504-.498-.718-.303-.653-.44-1.736-.344-2.71.07-.7.25-1.415.455-1.81.05-.096.09-.176.09-.18 0-.004-.082-.03-.182-.06-.706-.206-1.72-.71-2.5-1.244-.78-.535-1.627-1.288-2.15-1.91-.39-.46-.788-1.087-.95-1.49-.38-.94-.24-1.9.39-2.63.37-.43.84-.7 1.44-.83.28-.06.38-.06 1.12-.06 1.06 0 1.7.06 2.53.25.64.14 1.63.47 2.18.72.17.08.31.14.31.14.01-.01.04-.12.08-.26.08-.3.36-.84.58-1.14.24-.33.65-.75 1.01-1.05.43-.35 1.31-.92 1.87-1.2.28-.14.55-.25.59-.25.05 0 .15.08.23.19.23.3.43.75.52 1.15.08.34.08 1.24 0 1.72-.16.95-.54 1.95-1.02 2.68-.06.09-.11.17-.11.18 0 .01.1.03.22.04.35.05 1.1.27 1.55.45.78.33 1.55.83 2.05 1.33.73.73.95 1.55.64 2.38-.23.62-.78 1.14-1.61 1.52-.75.34-2 .6-2.95.6-.22 0-.42.01-.44.02-.02.01.02.11.09.23.33.6.52 1.51.52 2.52 0 1.2-.25 2.13-.79 2.86-.29.4-.68.69-1.12.84-.16.05-.3.07-.46.07z" />
+  </svg>
+</div>
+<div className="flex items-center">
+  {/* play icon */}
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    strokeWidth="0"
+    viewBox="0 0 512 512"
+    className="text-cyan-300"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M192 128l128 128-128 128z" />
+  </svg>
+
+  <p className="text-lg mx-2 text-zinc-100 font-semibold">ASP.NET Core</p>
+
+  {/* .NET brand icon */}
+  <svg
+    role="img"
+    viewBox="0 0 24 24"
+    className="text-gray-200"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>.NET</title>
+    <path d="M24 0v24H0V0h24zM18.795 16.94c0 1.79-1.15 2.93-2.98 2.93h-1.38l-2.2-3.62v3.62H9.66V4.13h2.58l3.3 5.4V4.13h2.25v12.81zM6.33 19.87H4.08V4.13H6.33v15.74zm13.59 0h-2.25V4.13h2.25v15.74z" />
+  </svg>
+</div>
+
         </MotionWrapper>
         <MotionWrapper
           delay={1.2}
