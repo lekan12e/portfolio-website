@@ -93,4 +93,11 @@ export const projects = [
     image: "/oshey-dubia.PNG",
     link: "https://osheydubia.netlify.app/",
   },
+  {
+    title: "Survey Records Dashboard",
+    description: "Built a fullstack application learning .Net to create a system where surveyours can record the projects they have in the pipeline.",
+    technologies: ["React", "Tailwind CSS", "Netlify", ".Net", "Mongodb", "Render"],
+    image: "/surv-records.png",
+    link: "https://survrec.netlify.app/",
+  }
 ];
